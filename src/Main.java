@@ -41,20 +41,20 @@ public class Main {
     public static void task4() {
         System.out.println("Задача 4");
         var deliveryDistance = 40;
-       if(deliveryDistance<=20){
-           System.out.println("Доставка займет 1 день");
-       }else if (deliveryDistance<=60&&deliveryDistance>21){
-           System.out.println("Доставка займет 2 дня");
-       } else if (deliveryDistance>=61&&deliveryDistance<=100) {
-           System.out.println("Доставка займет 3 дня");
-       }else System.out.println("Доставки нет");
+        if (deliveryDistance <= 20) {
+            System.out.println("Доставка займет 1 день");
+        } else if (deliveryDistance <= 60 && deliveryDistance > 21) {
+            System.out.println("Доставка займет 2 дня");
+        } else if (deliveryDistance >= 61 && deliveryDistance <= 100) {
+            System.out.println("Доставка займет 3 дня");
+        } else System.out.println("Доставки нет");
 
     }
 
     public static void task5() {
         System.out.println("Задача 5");
         var monthNumber = 12;
-        switch (monthNumber){
+        switch (monthNumber) {
             case 11:
             case 12:
             case 1:
