@@ -60,7 +60,9 @@ public class Main {
             System.out.println("Доставка займет 2 дня");
         } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
             System.out.println("Доставка займет 3 дня");
-        } else System.out.println("Доставки нет");
+        } else {
+            System.out.println("Доставки нет");
+        }
 
     }
 
